@@ -1,50 +1,97 @@
 *{
     box-sizing: border-box;
-    }
-    body{
+}
+body{
     font-family: 'Montserrat', sans-serif;
-    }
-    a{
+    font-size: 16px;
+}
+a{
     color: #fff;
     text-decoration: none;
-    }
-    .container{
+}
+.container{
     max-width: 1132px;
     margin-left: auto;
     margin-right: auto;
-    }
-    .header{
-    background-color: #333;
-    }
-    .header__top{
+}
+.header{
+    background-color: #444547;
+}
+.header__top{
     display: flex;
     justify-content: space-between;
     padding: 0.5em;
-    }
-    .menu__list{
+}
+.menu__list{
     display: flex;
-    margin-top: 0.7em;
-    margin-right: 20em;
-    }
-    .menu__list a:hover{
+    margin-top: 0.4em;
+    margin-right: 21em;
+}
+.menu__list a:hover{
     opacity: 0.8;
     transition: 0.3s;
-    }
-    .menu__list-rigth a:hover{
+}
+.menu__list-rigth a:hover{
     opacity: 0.8;
     transition: 0.3s;
-    }
-    .menu__list li{
-    padding-right: 1em;
-    }
-    .menu__list-rigth{
+}
+.menu__list li{
+    padding-right: 1.5em;
+}
+.menu__list-rigth{
     list-style-type: none;
     display: flex;
-    margin-top: 0.7em;
-    }
-    .menu__list-rigth a{
+    margin-top: 0.4em;
+}
+.menu__list-rigth a{
     padding-right: 1em;
-    }
-    .img__logo{
-    width: 8em;
-    }
+}
+.img__logo{
+    width: 6em;
+}
+.first__page{
+        background-color: black;
+}
+.img__first-page {
+    background-image: url(/imge/full_Beetlejuice-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 78vh;
+    box-shadow: inset 0px 0px 60px 60px #000;
+
+}
+.way{
+    padding-top: 4em;
+    display: flex;
+}
+.nav__first-list {
+    display: flex;  
+}
+
+.nav__first-list a:hover {
+    text-decoration: underline;
+}
+.right__nav-list a:hover{
+    text-decoration: underline;
+}
+.nav__first-list li{
+    padding-right: -0.1em;
+}
+.right__nav-list p{
+    display: inline;
+    color: wheat;
+    
+}
+.arrows{
+    display: inline;
+    color: wheat;
+    list-style-type: none;
+    opacity: 0.5;
+    margin:0 0.2em 0 0.1em;
+}
+.Beetlejuice{
+    color: #fff;
+    opacity: 0.5;
+    padding-right: 41em;
+}
