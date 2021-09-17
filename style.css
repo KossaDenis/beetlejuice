@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 1132px;
+    max-width: 1155px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,7 +25,7 @@ a{
 .menu__list{
     display: flex;
     margin-top: 0.4em;
-    margin-right: 21em;
+    margin-right: 22em;
 }
 .menu__list a:hover{
     opacity: 0.8;
@@ -50,7 +50,8 @@ a{
     width: 6em;
 }
 .first__page{
-        background-color: black;
+    background-color: black;
+    height: 88vh;
 }
 .img__first-page {
     background-image: url(/imge/full_Beetlejuice-1.png);
@@ -59,7 +60,10 @@ a{
     background-position: top center;
     height: 78vh;
     box-shadow: inset 0px 0px 60px 60px #000;
-
+    z-index: 2;
+    margin-top: -4.5em;
+    height: 39em;
+    
 }
 .way{
     padding-top: 4em;
@@ -94,4 +98,173 @@ a{
     color: #fff;
     opacity: 0.5;
     padding-right: 41em;
+}
+.second-page {
+    height: 217vh;
+    background-color: #282828;
+}
+.box__info{
+    z-index: 2;
+    background-color: #fff;
+    margin: 0 8em;
+    height: 98em;
+    position: relative;
+    bottom: 3em;
+    border-top: 0.4em solid #d1004c ;
+    padding: 0 1em;
+}
+.info{
+    width: 71%;
+    margin: 3em 0 0;
+     z-index: 2;
+}
+.top__text{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top__text-info{
+    display: flex;
+    margin-bottom: 3em;
+}
+.top__text p{
+    padding-right: 0.4em;
+}
+.box__info-title{
+    padding-top: -1em;
+    font-size: 45px;
+}
+.genre{
+    padding-top: 2.5em;
+}
+.genre p{
+    display: inline;
+    font-weight: 600;
+    border-top: 1px solid;
+}
+.box__title{
+    font-size: 45px;
+    margin-bottom: 0.6em;
+}
+.box__comedy{
+    font-weight: 500;
+    border-top: 1px solid black;
+    display: inline;
+}
+.box__text{
+    margin: 3em 0 1em;
+    font-size: 21px;
+    font-weight: 500;
+    width: 42em;
+    line-height: 1.5;
+}
+.beetlejuice-img{
+    max-width: 47em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+}
+.row__title{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 24px;
+    font-weight: 600;
+}
+.row__title h2{
+    font-weight: 600;
+}
+.row__box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+.row__content1{
+    font-family: 'Hind', sans-serif;
+    margin: 1.3em 18em 0 0;
+}
+.row__content1 h3{
+    margin-bottom: 1em;
+    font-size: 16px;
+}.row__content1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.row__content1-right {
+    font-family: 'Hind', sans-serif;
+    margin: 1.3em 18em 0 0;
+    width: 23em;
+}
+.row__content1-right h3{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+.row__content1-right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.row__content2{
+    font-family: 'Hind', sans-serif;
+    margin-top: 4em;
+    width: 23em;
+}
+.row__content2 h3{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+.row__content2 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.row__content2-right{
+    font-family: 'Hind', sans-serif;
+    margin-top: 4em;
+    margin-right: 47%;
+}
+.row__content2-right h3{
+    margin-bottom: 1em;
+}
+.row__content2-right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.row__content3{
+    font-family: 'Hind', sans-serif;
+    margin-top: 4em;
+    width: 23em;
+}
+.row__content3 h3{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+.row__content3 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.row__content3-right{
+    font-family: 'Hind', sans-serif;
+    margin-top: 4em;
+    margin-right: 47%;
+}
+.row__content3-right h3{
+    margin-bottom: 1em;
+}
+.row__content3-right p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.row__content4{
+    font-family: 'Hind', sans-serif;
+    margin-top: 4em;
+    width: 23em;
+}
+.row__content4 h3{
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+.row__content4 p{
+    font-size: 18px;
+    width: 18em;
+    font-weight: 400;
+    line-height: 1.5;
 }
